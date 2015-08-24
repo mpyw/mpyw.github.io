@@ -1,0 +1,39 @@
+body {
+    background: skyblue;
+    font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+h1.title {
+    color: DarkBlue;
+    border-top: dashed white 2px;
+    border-bottom: dashed white 2px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+div.avatar {
+    text-align: center;
+}
+div.avatar img {
+    width: 200px;
+    border-radius: 50%;
+}
+table.profile, table.profile th, table.profile td {
+    border-collapse: collapse;
+    border: dashed 2px black;
+}
+table.profile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+table.profile th {
+    width: 30%;
+}
+table.profile th, table.profile td {
+    padding: 10px;
+    border: dashed 2px white;
+}
